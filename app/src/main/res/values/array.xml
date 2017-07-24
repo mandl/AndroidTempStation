@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="Orte">
+        <item>Zimmer</item>
+        <item>Stube</item>
+    </string-array>
+    <string-array name="Value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
+

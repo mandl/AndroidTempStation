@@ -1,0 +1,10 @@
+[
+  {
+    "merged": "/home/mandl/AndroidTempStation/app/build/intermediates/res/merged/debug/layout/listsec.xml",
+    "source": "/home/mandl/AndroidTempStation/app/src/main/res/layout/listsec.xml"
+  },
+  {
+    "merged": "/home/mandl/AndroidTempStation/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+    "source": "/home/mandl/AndroidTempStation/app/src/main/res/layout/activity_main.xml"
+  }
+]

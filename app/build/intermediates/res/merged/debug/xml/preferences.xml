@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:key="prefLockStation"
+        android:summary="Do not add new temperature station" android:title="Lock" />
+
+    <EditTextPreference android:inputType="numberDecimal" android:key="out" android:maxLength="2"
+        android:numeric="integer" android:title="Draußen" />
+    <EditTextPreference android:inputType="numberDecimal" android:key="in" android:maxLength="2"
+        android:numeric="integer" android:title="Stube" />
+    <EditTextPreference android:inputType="numberDecimal" android:key="wo" android:maxLength="2"
+        android:numeric="integer" android:title="Wohnen" />
+    <EditTextPreference android:inputType="numberDecimal" android:key="mobile" android:maxLength="2"
+        android:numeric="integer" android:summary="Temperature station for testing"
+        android:title="Schlafen" />
+    <EditTextPreference android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:inputType="numberDecimal" android:key="roof" android:maxLength="2"
+        android:numeric="integer" android:title="Dach" />
+    <com.tempstation.LockStationPreference android:dialogMessage="Reset temperature station list ?"
+        android:key="reset" android:summary="Reset the list of all stations"
+        android:title="Reset List" />
+    <com.tempstation.ClearMinMaxPreference android:dialogMessage="Reset Min Max Temperature?"
+        android:key="resetMinMax" android:summary="Reset Min Max values"
+        android:title="Reset Min Max" />
+
+    <EditTextPreference android:key="smsPhoneNumber" android:summary="This number receives the sms"
+        android:title="Phone Number" />
+    android:persistent="true"
+</PreferenceScreen>
